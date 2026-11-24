@@ -1,0 +1,11 @@
+import {test,expect} from '@playwright/test';
+import {LoginPage} from '../Pages/loginPage';
+
+test('Valid Credential', async({page})=>
+{
+    const login= new LoginPage(page);
+
+    login.navigation();
+    login.login("username@gmail.com","Testing@123");
+
+})
