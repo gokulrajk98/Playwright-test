@@ -20,7 +20,7 @@ test.beforeAll(async () => {
             {
                 orders: [
                     {
-                         country: "Austria",
+                         country: "Australia",
                         productOrderedId: "6960eae1c941646b7a8b3ed3"
                     }
                 ]
